@@ -1,0 +1,49 @@
+* {
+  background-color: aliceblue;
+}
+
+.container {
+  text-align: center;
+}
+
+.board {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 2px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  padding: 2px;
+  margin: 1px;
+  border: 2px solid black;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.status {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#resetButton {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button {
+  border: 1px solid #000;
+  border-radius: 15%;
+  background-color: blue;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
